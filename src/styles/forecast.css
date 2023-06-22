@@ -1,0 +1,58 @@
+h3{
+    font-size: 0.8rem;
+}
+.forecast{
+width: 90%;
+height: 50vh;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+gap: 1rem;
+}
+
+.forecast-data{
+    width: 180px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.forecast-data-dark{
+    width: 180px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}
+.backgroundimg{
+    position: absolute;
+    z-index: 1;
+}
+
+.main-data{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 175, 212);
+    position: absolute;
+    z-index: 10000;
+    border-radius: 8px;
+}
+
+.forecast-data img {
+    opacity: 1;
+}

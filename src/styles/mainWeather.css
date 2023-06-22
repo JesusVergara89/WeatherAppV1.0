@@ -1,0 +1,218 @@
+h3 {
+    font-size: 0.8rem;
+}
+
+.current-weather {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (0px <=width <=400px) {
+    .current-weather {
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+.current-weather-item-1 {
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 30px;
+    gap: 1rem;
+}
+
+.current-weather-item-2 {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.current-weather-item-2 img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.current-day {
+    position: absolute;
+    z-index: 4;
+    font-size: 120%;
+    bottom: 20vh;
+    background-color: rgb(113, 175, 212);
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+.current-day-dark {
+    position: absolute;
+    z-index: 4;
+    font-size: 120%;
+    color: black;
+    bottom: 20vh;
+    background-color: rgb(113, 175, 212);
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+@media (0px <=width <=400px) {
+    .current-weather-item-2 {
+        width: 60%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .current-day {
+        position: absolute;
+        z-index: 4;
+        font-size: 100%;
+        bottom: 1.5vh;
+        font-weight: bolder;
+        background-color: rgb(113, 175, 212);
+        padding: 0.5rem;
+        border-radius: 6px;
+    }
+    
+    .current-day-dark {
+        position: absolute;
+        z-index: 4;
+        font-size: 100%;
+        color: black;
+        bottom: 1.5vh;
+        font-weight: bolder;
+        background-color: rgb(113, 175, 212);
+        padding: 0.5rem;
+        border-radius: 6px;
+    }
+}
+
+.current-weather-item-1-1 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 1.2rem;
+}
+
+.current-weather-item-1-1-temperature .current-weather-item-1-1-climate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-weather-item-1-1-temperature img {
+    background-color: rgb(113, 175, 212);
+    border-radius: 7px;
+    transform: scale(1.2);
+}
+
+.temp-temp {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;    
+    z-index: 5;
+    left: calc( 50% - 50px);
+    top: 32vh;
+}
+
+.temperature {
+    font-size: 1.7rem;
+}
+
+@media (0px <=width <=400px) {
+.temp-temp {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;    
+    z-index: 5;
+    left: calc( 50% - 50px);
+    top: 35vh;
+    background-color: rgb(113, 175, 212);
+    border-radius: 8px;
+    opacity: 0.7;
+}
+
+.temperature {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+}
+
+.description {
+    font-size: 1rem;
+}
+
+.current-weather-item-1-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.current-weather-item-1-2 h3 {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.current-weather-item-1-2-humidity .current-weather-item-1-2-wind {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-wind-humidity {
+    text-align: center;
+    color: rgb(113, 175, 212);
+    font-size: 1rem;
+    font-weight: bold;
+}
