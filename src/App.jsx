@@ -52,7 +52,7 @@ function App() {
   }, [])
 
   //console.log(hour)
- // console.log(minutes)
+  // console.log(minutes)
   //console.log(darkMode)
 
   return (

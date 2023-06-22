@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../styles/forecast.css'
 import CardForcast from './CardForcast'
 
-const Forecast = ({ forcast,darkMode }) => {
+const Forecast = ({ forcast, darkMode }) => {
   //console.log(forcast)
   let fiveDays = forcast.slice(0, 5)
   // console.log(fiveDays)
