@@ -153,6 +153,7 @@ h3 {
     z-index: 5;
     left: calc( 50% - 50px);
     top: 32vh;
+    margin-top: 25px;
 }
 
 .temperature {
