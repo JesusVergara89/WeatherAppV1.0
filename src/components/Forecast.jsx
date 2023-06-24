@@ -10,7 +10,7 @@ const Forecast = ({ forcast, darkMode }) => {
   let now = new Date()
   let currentDay = now.getDay()
 
-  // console.log(currentDay)
+  //console.log(currentDay)
 
   useEffect(() => {
     if (currentDay === 0) {
@@ -38,7 +38,7 @@ const Forecast = ({ forcast, darkMode }) => {
                 setNewWeek(array6)
               } else {
                 if (currentDay === 6) {
-                  let array7 = ["Thursday", "Friday", "Saturday", "Sunday", "Monday"]
+                  let array7 = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
                   setNewWeek(array7)
                 }
               }
